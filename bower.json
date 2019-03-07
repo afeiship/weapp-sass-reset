@@ -1,0 +1,29 @@
+{
+  "name": "weapp-sass-reset",
+  "description": "Sass reset for weapp",
+  "main": [
+    "dist/weapp-sass-reset.css",
+    "dist/weapp-sass-reset.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "reset"
+  ],
+  "homepage": "https://github.com/afeiship/weapp-sass-reset",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}

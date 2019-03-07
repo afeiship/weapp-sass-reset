@@ -1,0 +1,27 @@
+{
+  "name": "weapp-sass-reset",
+  "version": "0.0.1",
+  "description": "Sass reset for weapp",
+  "homepage": "https://github.com/afeiship/weapp-sass-reset",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build":"gulp",
+    "test":"gulp test",
+    "release": "gulp && gulp test"
+  },
+  "main":"dist/weapp-sass-reset.scss",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "yargs": "^4.7.1"
+  }
+}
